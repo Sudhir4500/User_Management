@@ -80,4 +80,4 @@ npm run dev
 
 
 # Deployment
-The app is deployed on Vercel and can be accessed [here](https://user-management-sudhir4500.vercel.app).
+The app is deployed on Vercel and can be accessed [here](https://user-management-nine-phi.vercel.app/login).

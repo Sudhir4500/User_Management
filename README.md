@@ -4,35 +4,35 @@ A full-featured ReactJS application for managing users using the DummyJSON API. 
 
 ---
 
-##  Features
+## Features
 
--  **Authentication**
-  - Login via DummyJSON API
-  - Token + refresh token management
-  - Persistent session across reloads
+- Authentication
+    - Login via the DummyJSON API
+    - Token and refresh-token management
+    - Persistent session across reloads
 
--  **User Management**
-  - Protected route for `/users`
-  - Search, sort, and pagination
-  - Responsive table layout with avatars
-  - View user details on `/users/:id`
+- User management
+    - Protected route: `/users`
+    - Search, sort, and pagination
+    - Responsive table layout with avatars
+    - View user details at `/users/:id`
 
--  **Favorites**
-  - Mark/unmark users as favorites
-  - Persistent favorites using Context + localStorage
-  - View favorites on `/favorites`
+- Favorites
+    - Mark/unmark users as favorites
+    - Persistent favorites using Context + `localStorage`
+    - View favorites at `/favorites`
 
--  **Preferences**
-  - Theme toggle (light/dark)
-  - Items-per-page dropdown
-  - Reset preferences button
-  - Fully persistent via localStorage
+- Preferences
+    - Light/dark theme toggle
+    - Items-per-page selector
+    - Reset preferences button
+    - Fully persistent via `localStorage`
 
--  **Modular Architecture**
-  - Context API for auth, preferences, favorites
-  - Axios for API calls
-  - DaisyUI + Tailwind for styling
-  - React Router v7 for routing
+- Architecture
+    - Context API for auth, preferences, and favorites
+    - Axios for API calls
+    - DaisyUI + TailwindCSS for styling
+    - React Router v7 for routing
 
 ---
 

@@ -38,6 +38,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+            <Route path="/" element={<Navigate to="/users" />} />
           </Routes>
         </BrowserRouter>
       </PreferencesProvider>
